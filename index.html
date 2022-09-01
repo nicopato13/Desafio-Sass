@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="./img/30899056.jpg" class="logo" alt="logo" width="200" height="50"></a>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="#">RESERVAS</a></li>
+                <li><a href="#">CONTACTOS</a></li>
+            </ul>
+        </nav>            
+    </header>
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>Entregamos el mejor servicio de medicos del pais</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis modi fugit temporibus porro atque, vel placeat impedit repellendus sint!
+            </p>
+            <div>
+                <button class="btn-principal" type ="submit">Reserva tu hora</button>
+                <button class="btn-secundario" type ="submit">Consultas</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="./img/fondo-personaje-doctor_1270-84.webp" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+                <h2>Atendemos con velocidad!!</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci laudantium delectus nobis a molestiae amet eaque consequatur veritatis excepturi at.
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>Rayos X</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-laptop"></i>
+                    <h3>Cirugias</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-cart-arrow-down"></i>
+                    <h3>Examenes</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-content">
+            Pagina creada por Nicolas Gonzalez / Diseñador web
+        </p>
+    </footer>
+    <script>
+       const menu = document.getElementById('menu');
+       window.onscroll = function(){
+           if(window.pageYOffset>10){
+               menu.style.backgroundColor='#fff';
+           }
+           else{
+               menu.style.backgroundColor='initial';
+           }
+       }
+    </script>
+</body>
+</html>
